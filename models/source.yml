@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: ETH                # nickname you use in dbt
+    database: ETH          # your Snowflake database
+    schema: ETH_SCHEMA                  # your Snowflake schema
+    tables:
+      - name: CONTRACTS             # exact table name in Snowflake
+      - name: TRANSACTIONS
+      - name: TOKEN_TRANSFERS

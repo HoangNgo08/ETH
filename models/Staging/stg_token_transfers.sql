@@ -1,0 +1,1 @@
+select * from {{source('ETH','TOKEN_TRANSFERS')}}
